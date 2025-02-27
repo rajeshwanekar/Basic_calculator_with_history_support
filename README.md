@@ -43,33 +43,6 @@ Options:
 3. Exit
 ```
 
-## Key Code Snippets  
-The core logic of the calculator is implemented as follows:
-
-```python
-def calculate(expression):
-    try:
-        result = eval(expression)
-        history.append(f"{expression} = {result}")
-        return result
-    except Exception as e:
-        return f"Error: {e}"
-
-history = []
-while True:
-    expr = input("Enter expression: ")
-    if expr.lower() == "exit":
-        print("Goodbye!")
-        break
-    elif expr.lower() == "history":
-        print("\n".join(history) if history else "No history available.")
-    elif expr.lower() == "clear":
-        history.clear()
-        print("History cleared.")
-    else:
-        print(f"Result: {calculate(expr)}")
-```
-
 ## Professional Insights  
 This project demonstrates expertise in:
 - Command-line interface development.
