@@ -24,14 +24,23 @@ This project leverages Python's built-in capabilities for arithmetic processing 
 
 ## Example Output  
 ```sh
-Enter expression: 12 / 4 + 3 * 2
-Result: 9.0
-Enter expression: history
-1. 12 / 4 + 3 * 2 = 9.0
-Enter expression: clear
-History cleared.
-Enter expression: exit
-Goodbye!
+Options:
+1. Perform a calculations
+2. Show calculation history
+3. Exit
+Result: 20.0
+
+Options:
+1. Perform a calculations
+2. Show calculation history
+3. Exit
+Calculation history:
+10.0 * 2.0 = 20.0
+
+Options:
+1. Perform a calculations
+2. Show calculation history
+3. Exit
 ```
 
 ## Key Code Snippets  
